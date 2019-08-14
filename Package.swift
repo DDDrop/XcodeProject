@@ -13,7 +13,7 @@ let package = Package(
         .executable(name: "xcp", targets: ["XcodeProject"]),
         .executable(name: "OchaExample", targets: ["OchaExample"]),
         .library(
-            name: "XcodeProjectCore",
+            name: "XcodeProject",
             targets: ["XcodeProjectCore"]),
     ],
     dependencies: [
