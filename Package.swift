@@ -17,7 +17,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
          .package(url: "https://github.com/bannzai/Swdifft.git", from: Version(1, 0, 3)),
          .package(url: "https://github.com/kylef/Commander.git", from: Version(0, 8, 0)),
-         .package(url: "https://github.com/bannzai/Ocha.git", from: Version(1, 1, 0)),
+         .package(url: "https://github.com/DDDrop/Ocha.git", from: Version(1, 1, 1)),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
